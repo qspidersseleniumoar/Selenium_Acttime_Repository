@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.acttime.logintest.LoginTest">
+        <methods>
+          <include name="configAm"/>
+          <include name="configBM"/>
+          <include name="configAc"/>
+          <include name="configBc"/>
+        </methods>
+      </class> <!-- com.acttime.logintest.LoginTest -->
+      <class name="com.acttime.customertest.CreateCustomerTest">
+        <methods>
+          <include name="configAm"/>
+          <include name="cerateCustomerWithDescrition"/>
+          <include name="configBM"/>
+          <include name="createCustomerTest"/>
+          <include name="configBc"/>
+        </methods>
+      </class> <!-- com.acttime.customertest.CreateCustomerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
